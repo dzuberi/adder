@@ -1,0 +1,74 @@
+$date
+	Sat Dec 15 01:07:27 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module adder_tb $end
+$var wire 1 ! overflow $end
+$var wire 4 " out [3:0] $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % enable $end
+$scope module DUT $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 % enable $end
+$var wire 4 ( p [3:0] $end
+$var wire 1 ! overflow $end
+$var wire 4 ) out [3:0] $end
+$var wire 4 * g [3:0] $end
+$var wire 4 + c [3:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk2[1] $end
+$upscope $end
+$scope begin genblk2[2] $end
+$upscope $end
+$scope begin genblk2[3] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+b0 "
+0!
+$end
+#20000
+1%
+#40000
+b110 "
+b110 )
+b110 (
+b100 $
+b100 '
+b10 #
+b10 &
+#60000
+b1011 "
+b1011 )
+b1011 (
+b1010 $
+b1010 '
+b1 #
+b1 &
+#80000
